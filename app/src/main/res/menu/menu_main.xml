@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.agenda.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aniadirContacto"
+        android:icon="@drawable/aniadircontacto"
+        android:orderInCategory="101"
+        android:title="@string/aniadirContacto"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/acercaDe"
+        android:icon="@drawable/acercade"
+        android:orderInCategory="102"
+        android:title="@string/acercaDe"
+        app:showAsAction="always" />
+</menu>
